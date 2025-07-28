@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #e9f4ff);
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #1a73e8;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.profile {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #1a73e8;
+}
+
+.info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+/* ✅ باکس مشاوره */
+.consult-box {
+  background-color: #ffffff;
+  border: 2px dashed #1a73e8;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.consult-box h3 {
+  color: #1a73e8;
+  margin-bottom: 15px;
+}
+
+.consult-box p {
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #1a73e8;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #135ecb;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+}
