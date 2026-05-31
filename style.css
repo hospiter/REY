@@ -23,7 +23,7 @@ html {
 body {
     direction: rtl;
     font-family: 'Vazirmatn', sans-serif;
-    background: #f7faf8;
+    background: #f8fbff;
     color: var(--dark);
     line-height: 1.9;
 }
@@ -104,9 +104,11 @@ nav a:hover {
 .hero {
     padding: 80px 0;
     background:
-        linear-gradient(to left,
-            rgba(22, 163, 74, .08),
-            rgba(14, 165, 233, .05));
+        linear-gradient(
+            135deg,
+            rgba(96, 165, 250, .18),
+            rgba(191, 219, 254, .35)
+        );
 }
 
 .hero-content {
@@ -121,8 +123,8 @@ nav a:hover {
 
 .badge {
     display: inline-block;
-    background: rgba(22,163,74,.12);
-    color: var(--primary);
+    background: rgba(96,165,250,.15);
+    color: var(--primary-dark);
     padding: 8px 16px;
     border-radius: 30px;
     margin-bottom: 20px;
@@ -285,7 +287,7 @@ section {
 /* SERVICES */
 
 .services {
-    background: #f8fafc;
+    background: #f0f9ff;
 }
 
 .services-grid {
