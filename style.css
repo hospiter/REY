@@ -1,9 +1,9 @@
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1e3a8a;
-    --secondary: #bfdbfe;
+    --primary: #4a5fa8;
+    --primary-dark: #1e2d5a;
+    --secondary: #d6ddf5;
 
-    --light: #f8fbff;
+    --light: #f5f7fc;
     --dark: #0f172a;
     --gray: #64748b;
     --light-gray: #e2e8f0;
@@ -25,7 +25,7 @@ html {
 body {
     direction: rtl;
     font-family: 'Vazirmatn', sans-serif;
-    background: #f8fafc;
+    background: #f5f7fc;
     color: var(--dark);
     line-height: 1.9;
 }
@@ -42,15 +42,15 @@ body {
 header {
     background: linear-gradient(
         135deg,
-        #1e3a8a,
-        #2563eb
+        #1e2d5a,
+        #2d4080
     );
 
     color: white;
     position: sticky;
     top: 0;
     z-index: 999;
-    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    box-shadow: 0 8px 25px rgba(0,0,0,.12);
 }
 
 .header-content {
@@ -112,15 +112,15 @@ nav a:hover {
     background:
         radial-gradient(
             circle at top right,
-            rgba(37,99,235,.08),
+            rgba(74,95,168,.07),
             transparent 35%
         ),
         radial-gradient(
             circle at bottom left,
-            rgba(191,219,254,.35),
+            rgba(214,221,245,.4),
             transparent 40%
         ),
-        #f8fbff;
+        #f5f7fc;
 }
 
 .hero-content {
@@ -135,7 +135,7 @@ nav a:hover {
 
 .badge {
     display: inline-block;
-    background: rgba(37,99,235,.08);
+    background: rgba(74,95,168,.1);
     color: var(--primary-dark);
 
     padding: 10px 18px;
@@ -180,7 +180,7 @@ nav a:hover {
     border: 10px solid white;
 
     box-shadow:
-        0 25px 50px rgba(37,99,235,.15);
+        0 25px 50px rgba(74,95,168,.18);
 
     transition: .4s;
 }
@@ -204,8 +204,8 @@ nav a:hover {
     background:
         linear-gradient(
             135deg,
-            #2563eb,
-            #1e40af
+            #2d4080,
+            #1e2d5a
         );
 
     color: white;
@@ -215,8 +215,8 @@ nav a:hover {
     background:
         linear-gradient(
             135deg,
-            #1d4ed8,
-            #1e3a8a
+            #243566,
+            #162244
         );
 
     transform: translateY(-3px);
@@ -323,7 +323,7 @@ section {
 /* SERVICES */
 
 .services {
-    background: #f8fbff;
+    background: #f5f7fc;
 }
 
 .services-grid {
@@ -426,8 +426,8 @@ section {
 .cta {
     background:
         linear-gradient(135deg,
-            var(--primary),
-            var(--primary-dark));
+            #2d4080,
+            #1e2d5a);
 
     color: white;
     text-align: center;
