@@ -230,6 +230,17 @@ nav a:hover::after {
     justify-content: center;
 }
 
+/* موبایل: عکس مخفی — دسکتاپ: عکس نمایش */
+.hero-image-mobile {
+    display: none;
+}
+
+.hero-image-desktop {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
 .img-wrapper {
     position: relative;
     display: inline-block;
@@ -797,8 +808,15 @@ footer {
         order: 1;
     }
 
-    .hero-image {
-        order: 2;
+    /* توی موبایل: عکس موبایل نمایش، عکس دسکتاپ مخفی */
+    .hero-image-mobile {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 10px;
+    }
+
+    .hero-image-desktop {
+        display: none;
     }
 
     .about-content{
